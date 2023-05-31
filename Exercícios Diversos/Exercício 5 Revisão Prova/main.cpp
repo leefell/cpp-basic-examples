@@ -14,7 +14,7 @@ Observações:
  */
 int main(int argc, char** argv) {
 
-    int senha, senhacerta = 1234, tentativa = 0;
+    int senha, tentativa = 0;
     do{
         cout << "Digite sua sua senha: " << endl;
         cin >> senha;
@@ -27,8 +27,11 @@ int main(int argc, char** argv) {
         }
         tentativa += 1;
     }while(tentativa < 3);
-   
-
+        
+     if(tentativa == 3){
+        cout << "Numero de tentativas esgotadas!" << endl;
+    }
+  
     return 0;
 }
 
