@@ -16,8 +16,8 @@ int main(int argc, char** argv) {
     cout << "PES - Programacao Estruturada - Turma A." << endl;
     cout << "\nProva Bimestral." << endl;
     cout << "\nValor - 4.0 pontos" << endl;
-    cout << "\nAluno: Alexandre Augusto dos Santos Feltrin" << endl;
-    cout << "Matricula: VP301987X;" << endl;
+    cout << "\nAluno: Alexandre" << endl;
+    cout << "Matricula: VP301987;" << endl;
     cout << "" << endl;
             
     
