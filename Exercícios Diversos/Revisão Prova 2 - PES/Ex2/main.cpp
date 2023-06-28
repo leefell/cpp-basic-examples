@@ -15,7 +15,10 @@ int main(int argc, char** argv) {
     for(int i = 0; i < 8; i++){
         cout << "Digite o " << i + 1 << " valor: ";
         cin >> vetor[i];
-    }
+        if(vetor[i]%3==0){
+        mult += 1;
+    }    
+}
     
     cout << "Os valores digitados foram: ";
     for(int i = 0; i < 8; i++){
@@ -26,12 +29,6 @@ int main(int argc, char** argv) {
        cout << vetor[i] << " - ";
    }
    cout << endl;
-   
-   for(int i = 0; i < 8; i++){
-       if(vetor[i]%3==0){
-        mult += 1;
-    }    
-   }
    
    cout << "Foram digitados " << mult << " numeros multiplos de 3." << endl;
    
